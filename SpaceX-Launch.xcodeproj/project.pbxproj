@@ -8,17 +8,61 @@
 
 /* Begin PBXBuildFile section */
 		82CA385F2D144EDD00B71AD0 /* SpaceX_LaunchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CA385E2D144EDD00B71AD0 /* SpaceX_LaunchApp.swift */; };
-		82CA38612D144EDD00B71AD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CA38602D144EDD00B71AD0 /* ContentView.swift */; };
-		82CA38632D144EE100B71AD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82CA38622D144EE100B71AD0 /* Assets.xcassets */; };
 		82CA38662D144EE100B71AD0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82CA38652D144EE100B71AD0 /* Preview Assets.xcassets */; };
+		82CA38872D144F2300B71AD0 /* LaunchDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CA386D2D144F2200B71AD0 /* LaunchDetailView.swift */; };
+		82CA38882D144F2300B71AD0 /* LaunchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CA386E2D144F2200B71AD0 /* LaunchListView.swift */; };
+		82CA38892D144F2300B71AD0 /* LaunchItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CA38702D144F2200B71AD0 /* LaunchItemCell.swift */; };
+		82CA388A2D144F2300B71AD0 /* CountDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CA38712D144F2200B71AD0 /* CountDownView.swift */; };
+		82CA388B2D144F2300B71AD0 /* LaunchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CA38722D144F2200B71AD0 /* LaunchCell.swift */; };
+		82CA388C2D144F2300B71AD0 /* LinkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CA38732D144F2200B71AD0 /* LinkRow.swift */; };
+		82CA388D2D144F2300B71AD0 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CA38752D144F2200B71AD0 /* APIManager.swift */; };
+		82CA388E2D144F2300B71AD0 /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CA38762D144F2200B71AD0 /* APIEndpoint.swift */; };
+		82CA388F2D144F2300B71AD0 /* Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CA38782D144F2200B71AD0 /* Links.swift */; };
+		82CA38902D144F2300B71AD0 /* LaunchType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CA387A2D144F2200B71AD0 /* LaunchType.swift */; };
+		82CA38912D144F2300B71AD0 /* Patch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CA387B2D144F2200B71AD0 /* Patch.swift */; };
+		82CA38922D144F2300B71AD0 /* Launchs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CA387C2D144F2200B71AD0 /* Launchs.swift */; };
+		82CA38932D144F2300B71AD0 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CA387D2D144F2200B71AD0 /* Core.swift */; };
+		82CA38942D144F2300B71AD0 /* Launch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CA387E2D144F2200B71AD0 /* Launch.swift */; };
+		82CA38952D144F2300B71AD0 /* RedditLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CA387F2D144F2200B71AD0 /* RedditLinks.swift */; };
+		82CA38962D144F2300B71AD0 /* FlickrLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CA38802D144F2200B71AD0 /* FlickrLinks.swift */; };
+		82CA38972D144F2300B71AD0 /* DateUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CA38822D144F2300B71AD0 /* DateUtil.swift */; };
+		82CA38982D144F2300B71AD0 /* ColorUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CA38832D144F2300B71AD0 /* ColorUtil.swift */; };
+		82CA38992D144F2300B71AD0 /* LaunchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CA38852D144F2300B71AD0 /* LaunchViewModel.swift */; };
+		82CA389A2D144F2300B71AD0 /* LaunchListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CA38862D144F2300B71AD0 /* LaunchListViewModel.swift */; };
+		82CA389D2D144F2C00B71AD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82CA389B2D144F2C00B71AD0 /* Assets.xcassets */; };
+		82CA389E2D144F2C00B71AD0 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 82CA389C2D144F2C00B71AD0 /* Localizable.xcstrings */; };
+		E3CA455675065735B4F81FE4 /* Pods_SpaceX_Launch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF5E0C99C41C1E8F7EE2321 /* Pods_SpaceX_Launch.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B9C16B811A966288381FC3F /* Pods-SpaceX-Launch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceX-Launch.release.xcconfig"; path = "Target Support Files/Pods-SpaceX-Launch/Pods-SpaceX-Launch.release.xcconfig"; sourceTree = "<group>"; };
+		1EF5E0C99C41C1E8F7EE2321 /* Pods_SpaceX_Launch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpaceX_Launch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82CA385B2D144EDD00B71AD0 /* SpaceX-Launch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpaceX-Launch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82CA385E2D144EDD00B71AD0 /* SpaceX_LaunchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceX_LaunchApp.swift; sourceTree = "<group>"; };
-		82CA38602D144EDD00B71AD0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		82CA38622D144EE100B71AD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82CA38652D144EE100B71AD0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		82CA386D2D144F2200B71AD0 /* LaunchDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchDetailView.swift; sourceTree = "<group>"; };
+		82CA386E2D144F2200B71AD0 /* LaunchListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchListView.swift; sourceTree = "<group>"; };
+		82CA38702D144F2200B71AD0 /* LaunchItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchItemCell.swift; sourceTree = "<group>"; };
+		82CA38712D144F2200B71AD0 /* CountDownView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountDownView.swift; sourceTree = "<group>"; };
+		82CA38722D144F2200B71AD0 /* LaunchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchCell.swift; sourceTree = "<group>"; };
+		82CA38732D144F2200B71AD0 /* LinkRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkRow.swift; sourceTree = "<group>"; };
+		82CA38752D144F2200B71AD0 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		82CA38762D144F2200B71AD0 /* APIEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIEndpoint.swift; sourceTree = "<group>"; };
+		82CA38782D144F2200B71AD0 /* Links.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Links.swift; sourceTree = "<group>"; };
+		82CA387A2D144F2200B71AD0 /* LaunchType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchType.swift; sourceTree = "<group>"; };
+		82CA387B2D144F2200B71AD0 /* Patch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Patch.swift; sourceTree = "<group>"; };
+		82CA387C2D144F2200B71AD0 /* Launchs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Launchs.swift; sourceTree = "<group>"; };
+		82CA387D2D144F2200B71AD0 /* Core.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
+		82CA387E2D144F2200B71AD0 /* Launch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Launch.swift; sourceTree = "<group>"; };
+		82CA387F2D144F2200B71AD0 /* RedditLinks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedditLinks.swift; sourceTree = "<group>"; };
+		82CA38802D144F2200B71AD0 /* FlickrLinks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrLinks.swift; sourceTree = "<group>"; };
+		82CA38822D144F2300B71AD0 /* DateUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateUtil.swift; sourceTree = "<group>"; };
+		82CA38832D144F2300B71AD0 /* ColorUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorUtil.swift; sourceTree = "<group>"; };
+		82CA38852D144F2300B71AD0 /* LaunchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchViewModel.swift; sourceTree = "<group>"; };
+		82CA38862D144F2300B71AD0 /* LaunchListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchListViewModel.swift; sourceTree = "<group>"; };
+		82CA389B2D144F2C00B71AD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../project/OktayDeniz/spacex-launches/spacex-launches/Assets.xcassets"; sourceTree = "<group>"; };
+		82CA389C2D144F2C00B71AD0 /* Localizable.xcstrings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		F9BA717868C14D2046089DC1 /* Pods-SpaceX-Launch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceX-Launch.debug.xcconfig"; path = "Target Support Files/Pods-SpaceX-Launch/Pods-SpaceX-Launch.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3CA455675065735B4F81FE4 /* Pods_SpaceX_Launch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +82,8 @@
 			children = (
 				82CA385D2D144EDD00B71AD0 /* SpaceX-Launch */,
 				82CA385C2D144EDD00B71AD0 /* Products */,
+				9274F8C872035D0DE7AA76DD /* Pods */,
+				C646E431185ED230E94E1F7D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,9 +98,14 @@
 		82CA385D2D144EDD00B71AD0 /* SpaceX-Launch */ = {
 			isa = PBXGroup;
 			children = (
+				82CA38772D144F2200B71AD0 /* model */,
+				82CA38742D144F2200B71AD0 /* remote */,
+				82CA38812D144F2300B71AD0 /* utils */,
+				82CA386C2D144F2200B71AD0 /* view */,
+				82CA38842D144F2300B71AD0 /* viewmodel */,
 				82CA385E2D144EDD00B71AD0 /* SpaceX_LaunchApp.swift */,
-				82CA38602D144EDD00B71AD0 /* ContentView.swift */,
-				82CA38622D144EE100B71AD0 /* Assets.xcassets */,
+				82CA389B2D144F2C00B71AD0 /* Assets.xcassets */,
+				82CA389C2D144F2C00B71AD0 /* Localizable.xcstrings */,
 				82CA38642D144EE100B71AD0 /* Preview Content */,
 			);
 			path = "SpaceX-Launch";
@@ -67,6 +119,95 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		82CA386C2D144F2200B71AD0 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				82CA386D2D144F2200B71AD0 /* LaunchDetailView.swift */,
+				82CA386E2D144F2200B71AD0 /* LaunchListView.swift */,
+				82CA386F2D144F2200B71AD0 /* component */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		82CA386F2D144F2200B71AD0 /* component */ = {
+			isa = PBXGroup;
+			children = (
+				82CA38702D144F2200B71AD0 /* LaunchItemCell.swift */,
+				82CA38712D144F2200B71AD0 /* CountDownView.swift */,
+				82CA38722D144F2200B71AD0 /* LaunchCell.swift */,
+				82CA38732D144F2200B71AD0 /* LinkRow.swift */,
+			);
+			path = component;
+			sourceTree = "<group>";
+		};
+		82CA38742D144F2200B71AD0 /* remote */ = {
+			isa = PBXGroup;
+			children = (
+				82CA38752D144F2200B71AD0 /* APIManager.swift */,
+				82CA38762D144F2200B71AD0 /* APIEndpoint.swift */,
+			);
+			path = remote;
+			sourceTree = "<group>";
+		};
+		82CA38772D144F2200B71AD0 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				82CA38782D144F2200B71AD0 /* Links.swift */,
+				82CA38792D144F2200B71AD0 /* enums */,
+				82CA387B2D144F2200B71AD0 /* Patch.swift */,
+				82CA387C2D144F2200B71AD0 /* Launchs.swift */,
+				82CA387D2D144F2200B71AD0 /* Core.swift */,
+				82CA387E2D144F2200B71AD0 /* Launch.swift */,
+				82CA387F2D144F2200B71AD0 /* RedditLinks.swift */,
+				82CA38802D144F2200B71AD0 /* FlickrLinks.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		82CA38792D144F2200B71AD0 /* enums */ = {
+			isa = PBXGroup;
+			children = (
+				82CA387A2D144F2200B71AD0 /* LaunchType.swift */,
+			);
+			path = enums;
+			sourceTree = "<group>";
+		};
+		82CA38812D144F2300B71AD0 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				82CA38822D144F2300B71AD0 /* DateUtil.swift */,
+				82CA38832D144F2300B71AD0 /* ColorUtil.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		82CA38842D144F2300B71AD0 /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				82CA38852D144F2300B71AD0 /* LaunchViewModel.swift */,
+				82CA38862D144F2300B71AD0 /* LaunchListViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		9274F8C872035D0DE7AA76DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9BA717868C14D2046089DC1 /* Pods-SpaceX-Launch.debug.xcconfig */,
+				0B9C16B811A966288381FC3F /* Pods-SpaceX-Launch.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C646E431185ED230E94E1F7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EF5E0C99C41C1E8F7EE2321 /* Pods_SpaceX_Launch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82CA38692D144EE100B71AD0 /* Build configuration list for PBXNativeTarget "SpaceX-Launch" */;
 			buildPhases = (
+				08B7C414E9D54A7631D113E4 /* [CP] Check Pods Manifest.lock */,
 				82CA38572D144EDD00B71AD0 /* Sources */,
 				82CA38582D144EDD00B71AD0 /* Frameworks */,
 				82CA38592D144EDD00B71AD0 /* Resources */,
+				8A30D6ACC3901C09D96D3354 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,18 +269,80 @@
 			buildActionMask = 2147483647;
 			files = (
 				82CA38662D144EE100B71AD0 /* Preview Assets.xcassets in Resources */,
-				82CA38632D144EE100B71AD0 /* Assets.xcassets in Resources */,
+				82CA389D2D144F2C00B71AD0 /* Assets.xcassets in Resources */,
+				82CA389E2D144F2C00B71AD0 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08B7C414E9D54A7631D113E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpaceX-Launch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A30D6ACC3901C09D96D3354 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpaceX-Launch/Pods-SpaceX-Launch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpaceX-Launch/Pods-SpaceX-Launch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpaceX-Launch/Pods-SpaceX-Launch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		82CA38572D144EDD00B71AD0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82CA38612D144EDD00B71AD0 /* ContentView.swift in Sources */,
+				82CA388D2D144F2300B71AD0 /* APIManager.swift in Sources */,
+				82CA388E2D144F2300B71AD0 /* APIEndpoint.swift in Sources */,
+				82CA38922D144F2300B71AD0 /* Launchs.swift in Sources */,
+				82CA38992D144F2300B71AD0 /* LaunchViewModel.swift in Sources */,
+				82CA38882D144F2300B71AD0 /* LaunchListView.swift in Sources */,
+				82CA38892D144F2300B71AD0 /* LaunchItemCell.swift in Sources */,
+				82CA388C2D144F2300B71AD0 /* LinkRow.swift in Sources */,
+				82CA38982D144F2300B71AD0 /* ColorUtil.swift in Sources */,
+				82CA388F2D144F2300B71AD0 /* Links.swift in Sources */,
+				82CA389A2D144F2300B71AD0 /* LaunchListViewModel.swift in Sources */,
+				82CA388B2D144F2300B71AD0 /* LaunchCell.swift in Sources */,
+				82CA38962D144F2300B71AD0 /* FlickrLinks.swift in Sources */,
+				82CA38872D144F2300B71AD0 /* LaunchDetailView.swift in Sources */,
+				82CA38952D144F2300B71AD0 /* RedditLinks.swift in Sources */,
+				82CA38902D144F2300B71AD0 /* LaunchType.swift in Sources */,
+				82CA38932D144F2300B71AD0 /* Core.swift in Sources */,
+				82CA388A2D144F2300B71AD0 /* CountDownView.swift in Sources */,
+				82CA38912D144F2300B71AD0 /* Patch.swift in Sources */,
+				82CA38972D144F2300B71AD0 /* DateUtil.swift in Sources */,
+				82CA38942D144F2300B71AD0 /* Launch.swift in Sources */,
 				82CA385F2D144EDD00B71AD0 /* SpaceX_LaunchApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +471,7 @@
 		};
 		82CA386A2D144EE100B71AD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9BA717868C14D2046089DC1 /* Pods-SpaceX-Launch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -273,6 +479,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SpaceX-Launch/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -294,6 +501,7 @@
 		};
 		82CA386B2D144EE100B71AD0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B9C16B811A966288381FC3F /* Pods-SpaceX-Launch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +509,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SpaceX-Launch/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

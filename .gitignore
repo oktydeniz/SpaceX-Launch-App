@@ -1,0 +1,36 @@
+# Xcode ve macOS system files
+.DS_Store
+*.swp
+*.lock
+*.xcuserstate
+
+# Xcode Project
+build/
+DerivedData/
+*.xcworkspace
+xcuserdata/
+
+# Logs
+*.log
+*.xcactivitylog
+
+# Temp files
+tmp/
+*.tmp
+*.swp
+
+# Swift Package Manager
+.swiftpm/
+.build/
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+
+# CocoaPods
+Pods/
+Podfile.lock
