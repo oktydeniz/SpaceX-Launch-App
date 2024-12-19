@@ -29,8 +29,8 @@
 		82CA38982D144F2300B71AD0 /* ColorUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CA38832D144F2300B71AD0 /* ColorUtil.swift */; };
 		82CA38992D144F2300B71AD0 /* LaunchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CA38852D144F2300B71AD0 /* LaunchViewModel.swift */; };
 		82CA389A2D144F2300B71AD0 /* LaunchListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CA38862D144F2300B71AD0 /* LaunchListViewModel.swift */; };
-		82CA389D2D144F2C00B71AD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82CA389B2D144F2C00B71AD0 /* Assets.xcassets */; };
 		82CA389E2D144F2C00B71AD0 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 82CA389C2D144F2C00B71AD0 /* Localizable.xcstrings */; };
+		82F89C6A2D145202006B320B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82F89C692D145202006B320B /* Assets.xcassets */; };
 		E3CA455675065735B4F81FE4 /* Pods_SpaceX_Launch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF5E0C99C41C1E8F7EE2321 /* Pods_SpaceX_Launch.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,8 +60,8 @@
 		82CA38832D144F2300B71AD0 /* ColorUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorUtil.swift; sourceTree = "<group>"; };
 		82CA38852D144F2300B71AD0 /* LaunchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchViewModel.swift; sourceTree = "<group>"; };
 		82CA38862D144F2300B71AD0 /* LaunchListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchListViewModel.swift; sourceTree = "<group>"; };
-		82CA389B2D144F2C00B71AD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../project/OktayDeniz/spacex-launches/spacex-launches/Assets.xcassets"; sourceTree = "<group>"; };
 		82CA389C2D144F2C00B71AD0 /* Localizable.xcstrings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		82F89C692D145202006B320B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9BA717868C14D2046089DC1 /* Pods-SpaceX-Launch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceX-Launch.debug.xcconfig"; path = "Target Support Files/Pods-SpaceX-Launch/Pods-SpaceX-Launch.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,9 +104,9 @@
 				82CA386C2D144F2200B71AD0 /* view */,
 				82CA38842D144F2300B71AD0 /* viewmodel */,
 				82CA385E2D144EDD00B71AD0 /* SpaceX_LaunchApp.swift */,
-				82CA389B2D144F2C00B71AD0 /* Assets.xcassets */,
 				82CA389C2D144F2C00B71AD0 /* Localizable.xcstrings */,
 				82CA38642D144EE100B71AD0 /* Preview Content */,
+				82F89C692D145202006B320B /* Assets.xcassets */,
 			);
 			path = "SpaceX-Launch";
 			sourceTree = "<group>";
@@ -196,7 +196,6 @@
 				F9BA717868C14D2046089DC1 /* Pods-SpaceX-Launch.debug.xcconfig */,
 				0B9C16B811A966288381FC3F /* Pods-SpaceX-Launch.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -269,7 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82CA38662D144EE100B71AD0 /* Preview Assets.xcassets in Resources */,
-				82CA389D2D144F2C00B71AD0 /* Assets.xcassets in Resources */,
+				82F89C6A2D145202006B320B /* Assets.xcassets in Resources */,
 				82CA389E2D144F2C00B71AD0 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
